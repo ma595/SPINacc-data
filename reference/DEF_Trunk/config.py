@@ -31,7 +31,7 @@ parallel = True  # True by default
 take_unique = False
 
 # Output and testing
-results_dir = "./EXE_DIR/"
+results_dir = "./SPINacc-data/reference/"
 reference_dir = "/home/surface10/mrasolon/files_for_zenodo/reference/EXE_DIR/"
 leave_one_out_cv = False
 repro_test_task_1 = False
