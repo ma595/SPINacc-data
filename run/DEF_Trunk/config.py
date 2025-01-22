@@ -13,12 +13,12 @@ kmeans_clusters = 4
 max_kmeans_clusters = 9
 random_seed = 1000
 algorithms = [
-    # "bt",
+    "bt",
     # "rf",
     # "gbm",
     # "nn",
     # "ridge",
-    "best",
+    # "best",
 ]  # bt: BaggingTrees, rf: RandomForest, nn: MLPRegressor, gbm: XGBRegressor, lasso: Lasso, best: SelectBestModel
 
 start_from_scratch = False
@@ -27,11 +27,11 @@ start_from_scratch = False
 take_year_average = False  # Performance improved when set to True
 smote_bat = True
 model_out = False  # Optional
-parallel = True  # True by default
 take_unique = False
 
+parallel = True  # True by default
 # Output and testing
-results_dir = "./SPINacc-data/reference/"
+results_dir = "./SPINacc-data/run/"
 reference_dir = "/home/surface10/mrasolon/files_for_zenodo/reference/EXE_DIR/"
 leave_one_out_cv = False
 repro_test_task_1 = False
